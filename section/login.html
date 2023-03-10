@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="../pictures/icon/logo.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="container-1">
+            <div class="hader__wrapper">
+                <div class="container-navbar-1">
+                    <div class="navbar">
+                        <nav>
+                            <ul class="nav-menu">
+                                <li><a href="../section/hombre-ropa.html" class="nav-link">MEN</a></li>
+                                <li><a href="../section/mujeres.ropa.html" class="nav-link">WOMEN</a></li>
+                                <li><a href="../section/equipamento.html" class="nav-link">EQUIPMENT</a></li>
+                                <li><a href="#">ABOUT US</a></li>
+                            </ul>
+                        </nav>
+                        <div class="hamburgesa">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="header__secondary-link">
+                    <form method="post" action="/localization" class="header__cross-border">
+                        <input type="hidden" name="form_type" value="localization">
+                        <input type="hidden" name="utf8" value="✓">
+                        <input type="hidden" name="_method" value="put">
+                        <input type="hidden" name="return_to" value="/">
+                        <div class="pop-container">
+                            <input type="hidden" name="countr_code" value="us">
+                            <span class="visually-hidden">Contry/region</span>
+                            <button type="button" is="toggle-button" class="popover-button">
+                                USD $
+                                <div class="chvron icon--inline">
+                                    <i class='bx bx-chevron-down'></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="pop-container">
+                            <input type="hidden" name="countr_code" value="us">
+                            <span class="visually-hidden">Contry/region</span>
+                            <button type="button" is="toggle-button" class="popover-button">
+                                ENGLISH
+                                <div class="chvron icon--inline">
+                                    <i class='bx bx-chevron-down'></i>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="header__icon-list">
+                        <a href="#" class="header__icon-wrapper"><i class='bx bx-search'></i></a>
+                        <a href="../section/login.html" class="header__icon-wrapper"><i class='bx bx-user' ></i></a>
+                        <a href="#" class="header__icon-wrapper"><i class='bx bxs-cart' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="login">
+        <div class="container-login">
+            <div class="login-1">
+                <div class="login-text">
+                    <h2>Login</h2>
+                    <h3>Please enter your e-mail and password:</h3>
+                </div>
+                <div class="login-input">
+                    <form action="" method="post">
+                        <label for="email">
+                            Email
+                            <input type="email" name="correo" required>
+                        </label>
+                        <label for="password">
+                            Password
+                            <input type="password" name="password" required>
+                        </label>
+                        <button>
+                            <span>Login...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-img">
+        <div class="container-1">
+            <img src="../pictures/img-mein/img-footer/resistencia-a.webp" alt="Resistencia">
+            <img src="../pictures/img-mein/img-footer/fuerza-b.webp" alt="Fuerza-b">
+            <img src="../pictures/img-mein/img-footer/paralelas-c.jpg" alt="Paralelas">
+            <img src="../pictures/img-mein/img-footer/equilibrio-d.jpg" alt="Equilibrio">
+            <img src="../pictures/img-mein/img-footer/amigos-e.webp" alt="Amigos">
+        </div>
+    </section>
+
+    <div class="shopify-section">
+        <footer class="footer">
+            <div class="container-1">
+                <div class="footer__inner">
+                    <div class="footer__item-list">
+                        <div class="footer__item">
+                            <div class="footer__item-title footer__item--link is-first">
+                                <p class="footer__item-ritle heading heading--small">SUPPORT</p>
+                                <div class="footer__item--content">
+                                    <ul class="linklist list--unstyled">
+                                        <li class="linklist__item"><a href="#">FAQS</a></li>
+                                        <li class="linklist__item"><a href="#">RETURN & EXCHANGE</a></li>
+                                        <li class="linklist__item"><a href="#">SHIPPING COSTS</a></li>
+                                        <li class="linklist__item"><a href="#">MY ACCOUNT</a></li>
+                                        <li class="linklist__item"><a href="#">CONTACT US</a></li>
+                                        <li class="linklist__item"><a href="#">GIFTCARDS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__item-title footer__item--link is-first">
+                                <p class="footer__item-ritle heading heading--small">INFORMATION</p>
+                                <div class="footer__item--content">
+                                    <ul class="linklist list--unstyled">
+                                        <li class="linklist__item"><a href="#">ABOUT US</a></li>
+                                        <li class="linklist__item"><a href="#">BLOG</a></li>
+                                        <li class="linklist__item"><a href="#">CAREER</a></li>
+                                        <li class="linklist__item"><a href="#">IMPRESSUM</a></li>
+                                        <li class="linklist__item"><a href="#">TERMS & CONDITIONS</a></li>
+                                        <li class="linklist__item"><a href="#">PRIVACY POLICY</a></li>
+                                        <li class="linklist__item"><a href="#">REFUND POLICY</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <P class="footer__item title headin heading--small">SAVE 10% ON YOUR FIRST ORDER</P>
+                            <div class="footer__item-content">
+                                <p>
+                                    Receive an exclusive 10% voucher of your first order and always find out first about our brand new products & promotions in our newsletter
+                                </p>
+                                <div class="form">
+                                    <form action="post">
+                                        <label for="email">
+                                            <input type="email" required placeholder="Your email adress">
+                                        </label>
+                                        <button>Subscribe + 10% off</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/menu.js"></script>
+</body>
+</html>
